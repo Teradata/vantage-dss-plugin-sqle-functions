@@ -19,12 +19,12 @@
 } */
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.eot');
-  src: url('/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
-       url('/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.woff2') format('woff2'),
-       url('/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.woff') format('woff'),
-       url('/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.ttf') format('truetype'),
-       url('/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.eot');
+  src: url('/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.woff2') format('woff2'),
+       url('/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.woff') format('woff'),
+       url('/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/glyphs/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
 .glyphicon {

@@ -12,18 +12,18 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FO
 DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
 
-<link rel="stylesheet" href="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/aster-ui.css">
-<link rel="stylesheet" href="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/jquery-ui.css">
-<link rel="stylesheet" href="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/jquery.tagsinput.min.css" />
-<link rel="stylesheet" href="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/jquery.flexdatalist.min.css" />
-<link rel="stylesheet" href="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/css/glyphs.css">
-<!-- <link rel="stylesheet" href="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/tagsinput/bootstrap.min.css">
-<link rel="stylesheet" href="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/tagsinput/bootstrap-theme.min.css">
-<link rel="stylesheet" href="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/tagsinput/bootstrap-tagsinput.css"> -->
-<!-- <script src="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/tagsinput/bootstrap-tagsinput-angular.js"></script> -->
-<script src="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/js/jquery.tagsinput.min.js"></script>
-<script src="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/js/jquery.flexdatalist.min.js"></script>
-<!-- <script src="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/tagsinput/bootstrap-tagsinput-angular.js"></script> -->
+<link rel="stylesheet" href="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/aster-ui.css">
+<link rel="stylesheet" href="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/jquery-ui.css">
+<link rel="stylesheet" href="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/jquery.tagsinput.min.css" />
+<link rel="stylesheet" href="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/jquery.flexdatalist.min.css" />
+<link rel="stylesheet" href="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/css/glyphs.css">
+<!-- <link rel="stylesheet" href="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/tagsinput/bootstrap.min.css">
+<link rel="stylesheet" href="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/tagsinput/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/tagsinput/bootstrap-tagsinput.css"> -->
+<!-- <script src="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/tagsinput/bootstrap-tagsinput-angular.js"></script> -->
+<script src="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/js/jquery.tagsinput.min.js"></script>
+<script src="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/js/jquery.flexdatalist.min.js"></script>
+<!-- <script src="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/tagsinput/bootstrap-tagsinput-angular.js"></script> -->
 
 
 <div id="main-container">
@@ -38,7 +38,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SO
         <select ng-model="config.function" ng-options="choice.function_alias_name for choice in choices track by choice.name" ng-change="refresh(config.function.name)"></select>
           <option  value="" disabled selected>Select a Vantage function...</option>
         </select>
-        <a href ="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/documentation/DSSVantagePlugins-UserGuide.pdf" class="link1" target="_blank" download><span class="glyphicon glyphicon-question-sign"></span></a>
+        <a href ="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/documentation/DSSVantagePlugins-UserGuide.pdf" class="link1" target="_blank" download><span class="glyphicon glyphicon-question-sign"></span></a>
         <!-- <a href="#" class="link1" data-toggle="modal" data-target="#basicModal"><span class="glyphicon glyphicon-question-sign"></span></a> -->
       </div>
     </div>
@@ -1330,7 +1330,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SO
                 <h4 class="modal-title" id="myModalLabel">Learn More...</h4>
             </div>
             <div class="modal-body">
-                <iframe src="/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/documentation/document/20190619_book.pdf" height="100%" width="98%"></iframe>
+                <iframe src="/plugins/TeradataVantageSQLEFunctionsPlugin/resource/documentation/document/20190619_book.pdf" height="100%" width="98%"></iframe>
             </div>
         </div>
     </div>

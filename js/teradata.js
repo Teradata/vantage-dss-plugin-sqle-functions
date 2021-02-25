@@ -75,7 +75,7 @@
     /**
      * Function metadata path - this path contains the JSON metadata of each function.
      */
-    const FUNCTION_METADATA_PATH = '/plugins/TeradataVantageAnalyticFunctionsPlugin/resource/data/';
+    const FUNCTION_METADATA_PATH = '/plugins/TeradataVantageSQLEFunctionsPlugin/resource/data/';
 
     /**
      * Parameters to use for the dialog box.
