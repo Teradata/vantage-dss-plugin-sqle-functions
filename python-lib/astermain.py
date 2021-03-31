@@ -86,7 +86,6 @@ def asterDo():
     # Recipe function param
     dss_function = get_recipe_config().get('function', None)
     pp = pprint.PrettyPrinter(indent=4)
-
     print(SEP)
     print('DSS Function:')
     pp.pprint(dss_function)

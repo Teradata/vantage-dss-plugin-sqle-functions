@@ -41,7 +41,7 @@ def getOrderByClause(inputdef):
 def getAliasedInputONClause(input_, jsonfile, inputTables):
     table = getInputTableFromDatasets(input_.get('value', ''), inputTables)
     table.setPropertiesFromDef(input_)
-    if table.orderKey == [] or table.orderKey == [""] or table.orderKey == '':           
+    if table.orderKey == [] or table.orderKey == [""] or table.orderKey == '':
         return ALIASED_ON_CLAUSE.format(input_table=table.tablename,
            input_name=table.alias and ('AS "' + table.alias + '"'),
            partitionKeys=table.partitionKey,

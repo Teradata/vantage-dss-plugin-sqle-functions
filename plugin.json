@@ -5,7 +5,7 @@
     "id" : "TeradataVantageSQLEFunctionsPlugin",
 
     // Version. It is highly recommended to use Semantic Versioning
-    "version" :"2.0-1",
+    "version" :"2.0-2",
 
     // Meta data for display purposes
     "meta" : {

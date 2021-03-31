@@ -40,7 +40,7 @@ def isArgumentDictionaryEntry(argument, x):
     blist = x.get('alternateNames', [])
     return areStringsEqual(argumentname, entryname) or \
         isStringInList(argumentname, blist)
-    
+
 def getArgumentClause(cargument, arg_dict, inputTables):
     argumentdef  = next(iter(x for x in arg_dict if isArgumentDictionaryEntry(cargument, x)), {})
     asterarg = AsterArgumentFactory.createArg(cargument, argumentdef, inputTables)

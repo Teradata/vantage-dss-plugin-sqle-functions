@@ -36,4 +36,4 @@ class IntegerArgument(AsterArgument):
     
     @property
     def value(self):
-        return "'{}'".format(self.__int_try(self._argument.get('value','')))
+        return "{}".format(self.__int_try(self._argument.get('value','')))

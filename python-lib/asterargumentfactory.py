@@ -18,7 +18,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SO
 from booleanargument import *
 from doubleargument import *
 from integerargument import *
-from listargument import *
+from ListArgument import *
 from sqlexprargument import *
 from tableargument import *
 
@@ -47,7 +47,7 @@ class AsterArgumentFactory(object):
             return ListArgument(argument, argumentDef)
         # TODO: Better handling of nPath or other clauses like this. 
         # These arguments are handled differently, they require no quotation marks surrounding them. 
-        elif name == "Symbols" or name == "Result" or name == "Mode": 
+        elif name == "Symbols" or name == "Result" or name == "Mode" or name == "Filter":
             return SqlExprArgument(argument, argumentDef)
         else:
             return AsterArgument(argument, argumentDef)

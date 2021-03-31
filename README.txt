@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------
 - README file: The Teradata Vantage SQL Engine Functions Plugin 
 -              
-- Version: 2.0-1
+- Version: 2.0-2
 -
-- December 2020                                                                   
+- March 2021                                                                   
 -
 - Copyright (c) 2020 Teradata
 -------------------------------------------------------------------------
