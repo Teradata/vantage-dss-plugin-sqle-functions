@@ -62,16 +62,16 @@ III. Limitations
    table prior to executing an algorithm, but others do not. In the former case,
    the Advanced SQL Engine throws an "Already exists" exception.
 
-2. The plugin only supports Vantage Advanced SQL Engine Database datasets as 
+2. The plugin only supports Vantage Advanced SQL Engine Database datasets as
    input and output.
 
-4. Functions with any OUTPUT TABLE type arguments will require the user to add an
-   output dataset for the SELECT statement results of the query and any additional
-   output tables. Please refer to the Teradata Vantage Machine Learning Engine
-   Analytic Function Reference documentation page at docs.teradata.com to learn
-   about the output tables of each function.
+3. Functions with any OUTPUT TABLE type arguments will require the user to add
+   an output dataset for the SELECT statement results of the query and any
+   additional output tables. Please refer to the Vantage Advanced SQL Engine
+   Analytic Functions documentation page at docs.teradata.com to learn about
+   the output tables of each function.
 
-5. The following Advanced SQL Engine functions are not supported:
+4. The following Advanced SQL Engine functions are not supported:
    - DecisionForestPredict
    - DecisionTreePredict
    - GLMPredict
@@ -83,11 +83,12 @@ III. Limitations
 IV. References
 --------------
 
-For additional information on the Teradata Vantage SQL Engine Functions, search
-for the following on docs.teradata.com:
+For additional information on the Teradata Vantage Advanced SQL Engine analytic
+functions, search for the following on docs.teradata.com:
 
 1. "Advanced SQL Engine Analytic Functions Overview"
-2. "Teradata Vantage - Advanced SQL Engine Analytic Functions"
+2. "Teradata Vantage Advanced SQL Engine Analytic Functions"
+3. "Teradata Vantage User Guide"
 
 
 V. Changelog
