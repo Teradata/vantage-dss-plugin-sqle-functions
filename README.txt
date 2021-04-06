@@ -48,6 +48,9 @@ perform the following:
 5. When the upload succeeds, click on [Reload] button, or do a hard refresh
    (Ctrl + F5) on all open Dataiku browsers for the change to take effect.
 
+Documentation for the present plugin exists in the folder "resource/documentation"
+of the plugin zip file.
+
 
 III. Limitations
 ----------------
