@@ -3,7 +3,7 @@
 -
 - Version: 2.0-2
 -
-- March 2021
+- April 2021
 -
 - Copyright (c) 2021 Teradata
 -------------------------------------------------------------------------
@@ -63,13 +63,18 @@ III. Limitations
 2. The plugin only supports Vantage Advanced SQL Engine Database datasets as
    input and output.
 
-3. Functions with any OUTPUT TABLE type arguments will require the user to add
+3. Due to the mode the plugin creates output tables, the function output is
+   checked for duplicate rows. If any duplicate rows are found, then they are
+   removed from the output table. This behavior is not adjustable in the
+   present version of the plugin.
+
+4. Functions with any OUTPUT TABLE type arguments will require the user to add
    an output dataset for the SELECT statement results of the query and any
    additional output tables. Please refer to the Vantage Advanced SQL Engine
    Analytic Functions documentation page at docs.teradata.com to learn about
    the output tables of each function.
 
-4. The following Advanced SQL Engine functions are not supported:
+5. The following Advanced SQL Engine functions are not supported:
    - DecisionForestPredict
    - DecisionTreePredict
    - GLMPredict
@@ -84,9 +89,9 @@ IV. References
 For additional information on the Teradata Vantage Advanced SQL Engine analytic
 functions, search for the following on docs.teradata.com:
 
-1. "Advanced SQL Engine Analytic Functions Overview"
-2. "Teradata Vantage Advanced SQL Engine Analytic Functions"
-3. "Teradata Vantage User Guide"
+1. "Advanced SQL Engine Analytic Functions Overview".
+2. "Teradata Vantage Advanced SQL Engine Analytic Functions".
+3. "Teradata Vantage User Guide".
 
 
 V. Changelog
