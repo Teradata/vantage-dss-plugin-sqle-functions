@@ -15,7 +15,8 @@ for a majority of the Advanced SQL Engine analytics functions in 16.20.
 Note that Dataiku DSS itself also supports ANSI SQL push-down for most of their
 data preprocessing Visual recipes.
 
-The Plugins were tested with Vantage 2.0.
+The present plugin has been tested with Vantage 2.0.
+
 
 I. System Requirements
 ----------------------
@@ -25,12 +26,6 @@ The following component versions are required for the Teradata Vantage Plugin:
 1. Dataiku Data Science Studio version 8.0.2 - 8.0.6
 2. Teradata Vantage 2.0
 3. Teradata JDBC Driver 16.20 (minimum), Teradata JDBC Driver 17.00 (recommended)
-
-For R and Python support in Teradata Vantage, one or both of the following are
-required:
-
-1. 9687-2000-0120	R Interpreter and Add-on Pkg on Teradata Advanced SQL
-2. 9687-2000-0122	Python Interpreter and Add-on Pkg on Teradata Advanced SQL
 
 
 II. Install / Upgrade Instructions
